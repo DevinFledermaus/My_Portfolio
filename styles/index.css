@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+.landing-area {
+  background-image: url(https://www.photohdx.com/images/2016/11/blue-cloudy-sky-background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-transform: capitalize;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.about-btn {
+  display: flex;
+  border: none;
+  padding: 5px;
+  background-color: blue;
+  border-radius: 50px;
+  color: black;
+  font-size: 120%;
+  width: 120px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}

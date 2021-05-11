@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+.experience-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.experience-content {
+  display: flex;
+  margin-top: 12%;
+  margin-left: 450px;
+  margin-right: 300px;
+}
+
+.xp-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.edu-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15%;
+  font-size: 200%;
+  padding: 50px;
+}
+
+.skill-icons {
+  display: flex;
+  gap: 250px;
+  font-size: 250%;
+  margin-top: 50px;
+}
+
+.skill-icons > i:hover {
+  color: blue;
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+.about-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: white;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 300px;
+  margin-left: 300px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.about-image {
+  display: flex;
+  margin-left: 60%;
+}
+
+h3 {
+  margin-top: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 2px;
+}
+
+.interests,
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+span {
+  text-decoration-line: underline;
+  font-weight: bold;
+}
