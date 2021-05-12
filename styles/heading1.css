@@ -1,0 +1,18 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h3 {
+  margin-right: 400px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}

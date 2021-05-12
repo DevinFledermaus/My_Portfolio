@@ -20,23 +20,57 @@ section {
   background-color: white;
 }
 
-.experience-content {
+.content {
   display: flex;
-  margin-top: 12%;
-  margin-left: 450px;
-  margin-right: 300px;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+h3 {
+  margin-left: 180px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+ul > i {
+  font-size: 200%;
+}
+
+.xp-content > h2 {
+  display: flex;
+  margin-top: -85px;
+  margin-right: 100px;
 }
 
 .xp-content {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.school {
+  display: flex;
+  flex-direction: row;
+  margin-right: 250px;
+}
+
+.edu-content > h2 {
+  margin-right: 230px;
 }
 
 .edu-content {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  gap: 30px;
   margin-left: 200px;
 }
 

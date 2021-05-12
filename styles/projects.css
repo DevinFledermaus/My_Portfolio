@@ -15,8 +15,12 @@ section {
 .projects-area {
   display: flex;
   align-items: center;
-  height: 800px;
+  height: 100vh;
   background-color: white;
+}
+
+h3 {
+  margin-left: 150px;
 }
 
 .content {
@@ -26,12 +30,10 @@ section {
   align-items: center;
 }
 
-.heading {
+.button {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 20px;
-  font-size: 180%;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .heading > h2 {
@@ -40,6 +42,8 @@ section {
 
 .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background: rgba(0, 0, 0, 0.05);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
@@ -47,20 +51,101 @@ section {
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.18);
   flex-direction: column;
-  height: 500px;
-  margin-right: 400px;
-  margin-left: 400px;
-  margin-bottom: -200px;
+  height: 400px;
 }
 
 .frontend-task {
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .backend-task {
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* padding: 100px; */
+  /* padding: 3%; */
+  width: 31%;
+  margin: 10px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Contact_Form.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Timeline.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Testimonial_slider.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Temperture_converter.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Recursion.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Speedster.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5%;
+}
+
+.card-content:hover {
+  opacity: 1;
+}
+
+.line {
+  font-size: 70px;
+  color: blue;
+  display: flex;
+  gap: 20px;
 }

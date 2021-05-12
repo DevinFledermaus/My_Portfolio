@@ -23,22 +23,18 @@ section {
 .about-content {
   display: flex;
   flex-direction: column;
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-right: 200px;
   gap: 10px;
   padding: 10px;
 }
 
-.about-image {
-  display: flex;
-  margin-left: 60%;
+h2 {
+  margin-top: 30px;
 }
 
-h3 {
-  margin-top: 20px;
-  text-decoration-line: underline;
-  text-decoration-color: blue;
-  text-decoration-thickness: 2px;
+ul > i {
+  font-size: 150%;
+  margin-left: 5px;
 }
 
 .interests,
@@ -51,10 +47,27 @@ h3 {
 .about-info {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 90px;
+}
+.icon {
+  position: relative;
+  z-index: 3;
+}
+.icon::before {
+  top: -5px;
+  left: -5px;
+  width: 36px;
+  height: 36px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: blue;
+  z-index: -1;
 }
 
-span {
-  text-decoration-line: underline;
-  font-weight: bold;
+.line {
+  font-size: 70px;
+  color: blue;
+  display: flex;
+  gap: 20px;
 }
