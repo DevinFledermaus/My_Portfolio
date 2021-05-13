@@ -24,7 +24,7 @@ section {
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 h3 {
@@ -39,6 +39,7 @@ ul {
 
 ul > i {
   font-size: 200%;
+  color: blue;
 }
 
 .xp-content > h2 {
@@ -79,7 +80,7 @@ ul > i {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-top: 15%;
+  margin-top: 10%;
   font-size: 200%;
   padding: 50px;
 }
@@ -93,4 +94,23 @@ ul > i {
 
 .skill-icons > i:hover {
   color: blue;
+}
+
+.lines {
+  font-size: 70px;
+  color: blue;
+  display: flex;
+  gap: 20px;
+}
+
+.icon::before {
+  top: -20px;
+  left: 10%;
+  width: 36px;
+  height: 36px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: blue;
+  z-index: -1;
 }

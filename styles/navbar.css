@@ -10,7 +10,6 @@
   width: 20vw;
   height: 100vh;
   justify-content: center;
-  align-items: center;
   text-transform: uppercase;
   gap: 20px;
   font-family: sans-serif;
@@ -29,6 +28,7 @@
   color: black;
   font-weight: bold;
   font-size: 110%;
+  margin-left: 22%;
 }
 
 .navbar-button {

@@ -28,6 +28,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 200px;
 }
 
 .button {
@@ -148,4 +149,16 @@ h3 {
   color: blue;
   display: flex;
   gap: 20px;
+}
+
+.icon::before {
+  top: -20px;
+  left: 10%;
+  width: 36px;
+  height: 36px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: blue;
+  z-index: -1;
 }

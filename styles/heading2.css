@@ -18,3 +18,8 @@ h1 {
   margin-right: 300px;
   margin-top: 150px;
 }
+
+.icon {
+  position: relative;
+  z-index: 3;
+}

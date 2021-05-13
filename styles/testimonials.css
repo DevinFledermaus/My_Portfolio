@@ -38,10 +38,12 @@ section {
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 300px;
 }
 
 h4 {
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 h5 {
@@ -50,13 +52,45 @@ h5 {
   gap: 10px;
 }
 
+.owl-carousel .owl-item img {
+  display: block;
+  width: 30%;
+  height: 30%;
+}
+
 img {
-  height: 100px;
-  width: 130px;
+  border-radius: 50px;
 }
 
 .lower {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
+  gap: 20px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-left: 2%;
+}
+
+.lines {
+  font-size: 70px;
+  color: blue;
+  display: flex;
+  gap: 20px;
+}
+
+.icon::before {
+  top: -20px;
+  left: 30%;
+  width: 36px;
+  height: 36px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: blue;
+  z-index: -1;
 }

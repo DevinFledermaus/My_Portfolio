@@ -1,0 +1,32 @@
+header {
+  position: fixed;
+}
+
+header .social-links p {
+  top: 500px;
+  left: -10px;
+  width: 68px;
+  height: 20px;
+  color: #151812;
+  color: var(--base-1);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  position: relative;
+  transform: rotate(-90deg);
+}
+
+header .social-links i {
+  top: 430px;
+  left: 13px;
+  width: 68px;
+  height: 20px;
+  color: #151812;
+  color: var(--base-1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  position: relative;
+}

@@ -23,18 +23,32 @@ section {
 .about-content {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
   margin-right: 200px;
   gap: 10px;
   padding: 10px;
+}
+
+img {
+  margin-top: 10%;
+  width: 700px;
+  height: 700px;
+  margin-right: 30px;
+  margin-left: -30px;
 }
 
 h2 {
   margin-top: 30px;
 }
 
+h3 {
+  margin-left: 15px;
+}
+
 ul > i {
   font-size: 150%;
   margin-left: 5px;
+  color: blue;
 }
 
 .interests,
@@ -49,13 +63,15 @@ ul > i {
   flex-direction: row;
   gap: 90px;
 }
+
 .icon {
   position: relative;
   z-index: 3;
 }
+
 .icon::before {
-  top: -5px;
-  left: -5px;
+  top: -10px;
+  left: -20px;
   width: 36px;
   height: 36px;
   content: "";
