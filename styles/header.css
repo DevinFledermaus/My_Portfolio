@@ -29,4 +29,9 @@ header .social-links i {
   line-height: 1.2;
   white-space: nowrap;
   position: relative;
+  color: black;
+}
+
+header .social-links i:hover {
+  color: blue;
 }

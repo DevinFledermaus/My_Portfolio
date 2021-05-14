@@ -31,7 +31,9 @@
     <header>
       <div class="social-links">
         <ul>
-          <i class="fab fa-github-alt"></i>
+          <a href="https://github.com/" target="_blank">
+            <i class="fab fa-github-alt"></i
+          ></a>
         </ul>
         <p>Social links</p>
       </div>
@@ -216,6 +218,16 @@
           // stagePadding: 100,
           dots: false,
           autoplay: true,
+          responsive: {
+            0: {
+              items: 1,
+              // nav:true
+            },
+            1038: {
+              items: 2,
+              // nav:false
+            },
+          },
         });
       });
     </script>

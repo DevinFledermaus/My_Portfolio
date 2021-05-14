@@ -48,3 +48,26 @@
 .social-links {
   bottom: 0;
 }
+
+@media screen and (max-width: 1420px) {
+  .navbar-anchor {
+    margin-left: 10px;
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 892px) {
+  .navbar-anchor {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .navbar-anchor {
+    font-size: 35%;
+  }
+
+  .navbar-links {
+    gap: 50px;
+  }
+}

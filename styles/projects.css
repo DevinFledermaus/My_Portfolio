@@ -162,3 +162,46 @@ h3 {
   background-color: blue;
   z-index: -1;
 }
+
+.main-content {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1744px) {
+  .card {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1401px) {
+  .card {
+    width: 29%;
+  }
+}
+
+@media screen and (max-width: 1017px) {
+  .heading {
+    font-size: 50%;
+  }
+
+  h3 {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .heading {
+    font-size: 46%;
+  }
+
+  .main-content {
+    margin-left: 115px;
+  }
+}
+
+@media screen and (max-height: 680px) {
+  .heading {
+    margin-top: 50px;
+  }
+}

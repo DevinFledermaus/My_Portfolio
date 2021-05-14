@@ -23,18 +23,18 @@ section {
 .about-content {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
   gap: 10px;
   padding: 10px;
 }
 
 img {
   margin-top: 10%;
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
   margin-right: 30px;
-  margin-left: -30px;
 }
 
 h2 {
@@ -86,4 +86,43 @@ ul > i {
   color: blue;
   display: flex;
   gap: 20px;
+}
+
+@media screen and (max-width: 1665px) {
+  .about-content {
+    margin-top: 10%;
+  }
+
+  img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1357px) {
+  .my_image {
+    margin-left: -200px;
+  }
+}
+
+@media screen and (max-width: 1158px) {
+  .about-content {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .my_image {
+    display: none;
+  }
+
+  .about-content {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about-content {
+    font-size: 60%;
+    margin-left: 100px;
+  }
 }
