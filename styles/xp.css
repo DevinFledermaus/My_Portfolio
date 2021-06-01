@@ -45,7 +45,7 @@ ul > i {
 .xp-content > h2 {
   display: flex;
   margin-top: -85px;
-  margin-right: 100px;
+  margin-right: 2%;
 }
 
 .xp-content {
@@ -59,11 +59,11 @@ ul > i {
 .school {
   display: flex;
   flex-direction: row;
-  margin-right: 250px;
+  margin-right: 62%;
 }
 
 .edu-content > h2 {
-  margin-right: 230px;
+  margin-right: 20%;
 }
 
 .edu-content {
