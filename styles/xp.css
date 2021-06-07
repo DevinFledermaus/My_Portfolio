@@ -80,20 +80,45 @@ ul > i {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 200%;
   padding: 50px;
 }
 
 .skill-icons {
   display: flex;
+  flex-direction: row;
   gap: 250px;
   font-size: 250%;
-  margin-top: 50px;
+  margin-top: 10%;
+  transition: 0.5s ease-in-out;
 }
 
-.skill-icons > i:hover {
+.skill-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  display: flex;
+  font-size: 20%;
+  align-items: center;
+  margin-left: 5%;
+  transition: 0.5s ease-in-out;
+  font-weight: bolder;
+}
+
+.skill-icon:hover p {
+  font-size: 60%;
+}
+
+.skill-icon i {
+  transition: 0.5s ease-in-out;
+}
+
+.skill-icon:hover i {
   color: blue;
+  transform: rotate(360deg);
 }
 
 .lines {
