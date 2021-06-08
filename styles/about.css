@@ -128,3 +128,27 @@ ul > i {
     margin-left: 100px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+  }
+
+  .about-info h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-content {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 497px) {
+  .about-content {
+    padding: 0%;
+    margin: 10%;
+  }
+}

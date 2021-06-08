@@ -181,3 +181,26 @@ p {
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 979px) {
+  .main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 817px) {
+  .heading h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon::before {
+    position: relative;
+  }
+
+  .content h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
