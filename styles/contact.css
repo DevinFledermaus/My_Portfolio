@@ -50,6 +50,7 @@ img {
 
 h3 {
   margin-left: -40px;
+  margin-right: 300px;
 }
 
 form {
@@ -116,14 +117,14 @@ textarea {
   content: "";
   position: absolute;
   border-radius: 50%;
-  background-color: blue;
+  background-color: rgb(22, 38, 184);
   z-index: -1;
 }
 
 .line {
   font-size: 50px;
   margin-right: 500px;
-  color: blue;
+  color: rgb(22, 38, 184);
   display: flex;
 }
 

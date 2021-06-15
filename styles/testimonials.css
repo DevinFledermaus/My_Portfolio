@@ -77,7 +77,7 @@ img {
 
 .lines {
   font-size: 70px;
-  color: blue;
+  color: rgb(22, 38, 184);
   display: flex;
   gap: 20px;
 }
@@ -90,6 +90,6 @@ img {
   content: "";
   position: absolute;
   border-radius: 50%;
-  background-color: blue;
+  background-color: rgb(22, 38, 184);
   z-index: -1;
 }

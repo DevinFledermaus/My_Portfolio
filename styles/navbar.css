@@ -55,11 +55,12 @@
 
 .navbar-button:hover {
   border: none;
+  top: 3;
+  left: 3;
   color: black;
-  padding: 16px 32px;
+  padding: 20px;
   text-align: center;
   font-size: 50px;
-  margin: 4px 2px;
   transform: rotate(180deg);
 }
 
