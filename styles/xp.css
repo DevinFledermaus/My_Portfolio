@@ -23,8 +23,8 @@ section {
 .content {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  margin-top: 50px;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
 h3 {
@@ -44,8 +44,8 @@ ul > i {
 
 .xp-content > h2 {
   display: flex;
-  margin-top: -85px;
-  margin-right: 2%;
+  justify-content: center;
+  align-items: center;
 }
 
 .xp-content {
@@ -56,6 +56,10 @@ ul > i {
   margin-top: 15px;
 }
 
+.xp-content > ul {
+  margin-left: -115px;
+}
+
 .school {
   display: flex;
   flex-direction: row;
@@ -63,7 +67,10 @@ ul > i {
 }
 
 .edu-content > h2 {
-  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .edu-content {
@@ -72,7 +79,6 @@ ul > i {
   justify-content: center;
   flex-direction: column;
   gap: 30px;
-  margin-left: 200px;
 }
 
 .icons {
@@ -80,7 +86,7 @@ ul > i {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 200%;
   padding: 50px;
 }
@@ -167,7 +173,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -70px;
   }
 
   .edu-content {
