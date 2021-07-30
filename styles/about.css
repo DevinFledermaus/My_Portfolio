@@ -152,3 +152,9 @@ ul > i {
     margin: 10%;
   }
 }
+
+@media screen and (max-width: 459px) {
+  .about-content {
+    width: 50%;
+  }
+}

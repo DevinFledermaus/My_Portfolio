@@ -67,7 +67,7 @@ function createCard(card) {
         <h2>${card.title}</h2>
         <p>${card.description}</p>
         <div class="button"><a href="${card.githubURL}" target="${card.target}"><button>Github</button></a>
-        <a href="${card.liveProjectURL}"><button>Live</button></a></div>
+        <a href="${card.liveProjectURL}" target="${card.target}"><button>Live</button></a></div>
       </div>
     `;
   return createdCard;
