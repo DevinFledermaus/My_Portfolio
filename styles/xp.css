@@ -57,7 +57,7 @@ ul > i {
 }
 
 .xp-content > ul {
-  margin-left: -115px;
+  margin-left: -50px;
 }
 
 .school {
@@ -207,5 +207,26 @@ p {
   .content h2 {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .content {
+    font-size: 80%;
+  }
+  .xp-content {
+    margin-left: 18px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .content {
+    font-size: 75%;
+    margin-left: 10px;
+  }
+  .xp-content {
+    margin-left: 20px;
   }
 }

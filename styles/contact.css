@@ -160,14 +160,114 @@ textarea {
     gap: 30px;
   }
   input {
-    width: 90vw;
+    width: 80vw;
+    margin-left: 50px;
+  }
+  textarea {
+    width: 80vw;
+    margin-left: 50px;
   }
 
   .content {
-    margin-left: 24px;
+    font-size: 70%;
   }
 
   form {
     margin-left: -30px;
+  }
+
+  .heading {
+    width: 80vw;
+  }
+
+  .contact-text {
+    width: 80vw;
+  }
+
+  .line {
+    margin-left: 40px;
+  }
+
+  .buttons {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .heading h1 {
+    margin-left: -105px;
+  }
+
+  .contact-text {
+    margin-left: -80px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .heading {
+    margin-left: -80px;
+  }
+
+  .contact-text {
+    margin-left: -150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    margin-left: -130px;
+  }
+
+  .contact-text {
+    margin-left: -225px;
+  }
+
+  .content {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .heading h1 {
+    margin-left: -210px;
+    font-size: 180%;
+  }
+
+  .contact-text {
+    margin-left: -280px;
+  }
+
+  .content {
+    font-size: 50%;
+  }
+
+  .contact-form {
+    margin-left: -70px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .heading h1 {
+    margin-left: -240px;
+  }
+
+  .contact-text {
+    margin-left: -360px;
+  }
+
+  .content {
+    font-size: 45%;
+  }
+
+  .buttons button {
+    padding: 5px;
+    width: 200%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .buttons {
+    margin-left: 10px;
   }
 }
