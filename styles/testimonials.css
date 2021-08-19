@@ -53,8 +53,9 @@ h5 {
 
 .owl-carousel .owl-item img {
   display: block;
-  width: 30%;
-  height: 30%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 
 img {
@@ -97,5 +98,34 @@ img {
 @media screen and (max-width: 865px) {
   .card {
     font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .card {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .card {
+    font-size: 65%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .owl-carousel .owl-item img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .card {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .card {
+    font-size: 40%;
   }
 }
