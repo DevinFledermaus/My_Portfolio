@@ -104,12 +104,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.05);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.18);
+  border: none;
   flex-direction: column;
   height: 500px;
 }
@@ -274,9 +269,19 @@ p {
     height: 20%;
     width: 30%;
   }
+
+  .card-content {
+    font-size: 70%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    padding: 5px;
+  }
 }
 
-@media screen and (max-width: 717px) {
+/* @media screen and (max-width: 717px) {
   .buttons {
     font-size: 65%;
   }
@@ -308,4 +313,4 @@ p {
   .buttons {
     font-size: 30%;
   }
-}
+} */
