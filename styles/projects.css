@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  height: 100vh;
 }
 
 section {
@@ -103,10 +104,12 @@ p {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   border: none;
   flex-direction: column;
   height: 500px;
+  position: relative;
+  margin-top: 200px;
 }
 
 .frontend-task {
@@ -203,6 +206,8 @@ p {
   color: rgb(22, 38, 184);
   display: flex;
   gap: 20px;
+  position: absolute;
+  top: 190px;
 }
 
 .icon::before {
@@ -231,6 +236,16 @@ p {
 @media screen and (max-width: 1401px) {
   .card {
     width: 29%;
+  }
+
+  .container {
+    margin-top: 250px;
+  }
+}
+
+@media screen and (max-width: 1103px) {
+  .container {
+    margin-top: 350px;
   }
 }
 
@@ -266,8 +281,8 @@ p {
 
 @media screen and (max-width: 901px) {
   .card {
-    height: 20%;
-    width: 30%;
+    height: 30%;
+    width: 40%;
   }
 
   .card-content {
@@ -279,38 +294,32 @@ p {
   .button {
     padding: 5px;
   }
-}
 
-/* @media screen and (max-width: 717px) {
-  .buttons {
-    font-size: 65%;
+  .container {
+    margin-top: 320px;
   }
 }
 
-@media screen and (max-width: 608px) {
-  .heading {
-    font-size: 46%;
-  }
-
-  .main-content {
-    margin-left: 115px;
+@media screen and (max-width: 753px) {
+  .container {
+    margin-top: 350px;
+    margin-bottom: 5vh;
   }
 }
 
-@media screen and (max-width: 630px) {
-  .buttons {
-    font-size: 45%;
+@media screen and (max-width: 722px) {
+  .card-content {
+    font-size: 55%;
   }
 }
 
-@media screen and (max-width: 680px) {
-  .heading {
-    margin-top: 50px;
+@media screen and (max-width: 649px) {
+  .card {
+    height: 15%;
+    width: 50%;
+  }
+
+  .container {
+    margin-bottom: 0;
   }
 }
-
-@media screen and (max-width: 540px) {
-  .buttons {
-    font-size: 30%;
-  }
-} */
