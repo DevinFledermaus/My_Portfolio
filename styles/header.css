@@ -1,9 +1,9 @@
 header {
   position: fixed;
+  top: 50%;
 }
 
 header .social-links p {
-  top: 500px;
   left: -10px;
   width: 68px;
   height: 20px;
@@ -18,7 +18,7 @@ header .social-links p {
 }
 
 header .social-links i {
-  top: 430px;
+  top: -70px;
   left: 13px;
   width: 68px;
   height: 20px;

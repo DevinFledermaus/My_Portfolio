@@ -29,9 +29,8 @@ section {
 }
 
 .card {
-  margin-top: 20%;
-  margin-bottom: 5%;
   margin-right: 50px;
+  font-size: 85%;
   padding: 30px;
   background: white;
   backdrop-filter: blur(0px);
@@ -42,7 +41,7 @@ section {
 
 h4 {
   margin-bottom: 15px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 h5 {
