@@ -5,108 +5,139 @@
 }
 
 body {
-  font-family: sans-serif;
-  height: 100vh;
+  background-color: #222;
+  color: #fff;
 }
 
-.landing-area {
-  background-image: url(https://www.photohdx.com/images/2016/11/blue-cloudy-sky-background.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  overflow-y: hidden;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  text-transform: capitalize;
-}
-.heading {
-  z-index: 1;
+h1, h2, h3, p, nav, span {
+  color: #fff;
 }
 
 h1 {
-  display: flex;
-  flex-direction: column;
-  font-size: 350%;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  font-size: 4em;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  margin-left: 250px;
+h2 {
+  font-size: 2.5em;
 }
 
-.link {
-  text-decoration: none;
+h3 {
+  font-size: 2em;
 }
 
-.about-btn {
-  display: flex;
-  border: none;
-  padding: 5px;
-  background-color: blue;
-  border-radius: 50px;
-  color: black;
-  font-size: 120%;
-  width: 120px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  cursor: pointer;
-}
-
-.about-btn:hover {
-  background-color: white;
-  border: black;
-  border: solid;
-  font-weight: bold;
+nav {
+  display: none;
 }
 
 img {
-  height: 920px;
-  width: 700px;
-  z-index: -1;
+  height: 100px;
+  width: 100px;
   object-fit: contain;
 }
 
-@media screen and (max-width: 1150px) {
-  img {
-    margin-left: -600px;
-    object-fit: contain;
-  }
-  .heading {
-    font-size: 60%;
-  }
+/* Landing Page */ 
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-@media screen and (max-height: 893px) {
-  img {
-    height: 700px;
-    margin-bottom: -130px;
-    object-fit: contain;
-  }
+.main-title {
+
 }
 
-@media screen and (max-width: 595px) {
-  .about-btn {
-    display: none;
-  }
+.main-title p {
+  font-size: 2em;
 }
 
-@media screen and (max-width: 505px) {
-  .image {
-    margin-right: -150px;
-  }
-  .heading {
-    font-size: 50%;
-    margin-right: 70px;
-  }
-  .img {
-    width: 100vw;
-  }
+
+.main-title span {
+  font-size: 4em;
+}
+
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: white;
+  animation: blink .6s linear infinite alternate;
+ }
+
+
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+/* About Page */
+
+.about-us {
+  text-align: center;
+}
+
+.life-choices__col {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+/* Project Page */
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/Contact_Form.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/Timeline.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/Testimonial_slider.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/Temperture_converter.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/Recursion.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/Speedster.png);
+  background-size: cover;
+  background-position: center;
 }
